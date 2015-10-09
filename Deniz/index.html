@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title> Tednoloji </title>
+		<script type="text/javascript" src="js/jquery-2.1.4.min.js"</script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"</script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/bannerimg.js"></script>
+		<script type="text/javascript" src="js/nav.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</head>
+<body onload="Slider();">
+		<div class="background">
+		<img src="img/background.jpg"/>
+		</div>
+	<div class="nav">
+		<div class="nav_wrapper">
+			<ul>
+			<li><a href="#"onclick="selectStep(1); return false;">ANA SAYFA</a></li><li>
+				<a href="#"onclick="selectStep(2); return false;">HAKKIMIZDA</a></li><li>
+				<a href="#"onclick="selectStep(3); return false;">GALERİ</a></li><li>
+				<a href="#"onclick="selectStep(4); return false;">İLETİŞİM</a></li><li>				
+				<a href="#">SOSYAL MEDYA<img class="down"src="img/down.png"</img></a>
+					<ul>
+						<li><a href="http://www.facebook.com">Facebook</a></li>
+						<li><a href="http://www.instagram.com">Instagram</a></li>
+					</ul>
+			</li>
+			</ul>
+		</div>
+		</div>
+		<div class="banner">
+			<img id="1" src="img/1.png"/>
+			<img id="2" src="img/1.png"/>
+			<img id="3" src="img/1.png"/>
+			<img id="4" src="img/1.png"/>
+		</div>
+		<div class="contentwrap">
+		<div class="content" id="content1">
+			<h1>ANA SAYFA</h1>
+			<p>Ana Sayfa.</p>
+		</div>
+		<div class="content" id="content2">
+			<h1>Bilişim Kulübü</h1>
+			<p>Bilişim Kulübü.</p>
+		</div>
+			<div class="content" id="content3">
+			<h1>GALERİ</h1>
+			<div class="fotorama"data-allowfullscreen="native"data-nav="thumbs">
+			<img src="http://s.fotorama.io/1.jpg">
+			<img src="http://s.fotorama.io/2.jpg">
+			</div>
+		</div>
+		<div class="content" id="content4">
+			<h1>İLETİŞİM BİLGİLERİ</h1>
+			<p>İletişim Bilgileri.</p>
+		</div>
+		</div>
+		
+</body>
+</html>
